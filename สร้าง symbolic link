@@ -1,0 +1,11 @@
+mklink /d c:\myshare e:\share\1996 
+symbolic link created for c:\myshare <<===>> e:\share\1996 ไฟล์จริงอยู่ที่ ไดร์อี
+
+C:\WINDOWS\system32>mklink /d "E:\Online Game\Steam\steamapps\common\dota 2 beta"  "E:\Game Online\iryu dota"
+symbolic link created for E:\Online Game\Steam\steamapps\common\dota 2 beta <<===>> E:\Game Online\iryu dota
+
+C:\WINDOWS\system32>mklink /d "E:\Game Online\Nox" "\\192.168.0.241\warall $\Nox"
+symbolic link created for E:\Game Online\Nox <<===>> \\192.168.0.241\warall $\Nox สร้างลิงค์ไม่ได้ 
+
+C:\WINDOWS\system32>mklink /d "E:\Game Online\Nox" N:\
+symbolic link created for E:\Game Online\Nox <<===>> N:\ สร้างลิงค์ได้
